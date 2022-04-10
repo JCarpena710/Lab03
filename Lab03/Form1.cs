@@ -109,7 +109,7 @@ namespace Lab03
 
         private void btnPersona_Click(object sender, EventArgs e)
         {
-            Persona persona = new Persona(conn);
+            Login persona = new Login(conn);
             persona.Show();
         }
     }
