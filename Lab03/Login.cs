@@ -48,6 +48,8 @@ namespace Lab03
 
                 else {
                     MessageBox.Show("Error en los datos");
+                    txtUsuario.Clear();
+                    txtPassword.Clear();
                     reader.Close();
                 }
 
